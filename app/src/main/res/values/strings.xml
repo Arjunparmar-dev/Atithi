@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Atithi</string>
+
+    <string name="fairField_hotel_agra">FairField Hotel,Agra</string>
+    <string name="taj_hotel_agra">Taj Hotel,Agra</string>
+    <string name="oberoi_hotel_agra">Oberoi Hotel,Agra</string>
+
+
+</resources>
