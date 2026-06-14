@@ -50,6 +50,17 @@ Modern travelers face fragmented interfaces, slow query speeds, and cumbersome c
 ---
 
 ## 📸 Screenshots
+<img width="200" height="444" alt="Screenshot_20260614_124026" src="https://github.com/user-attachments/assets/275a8b55-31f5-447a-9ab9-3a0729fa035d" />
+<img width="200" height="444" alt="Screenshot_20260614_124040" src="https://github.com/user-attachments/assets/63afb391-2f74-4d70-9dfa-5d7dd1dffded" />
+<img width="200" height="444" alt="Screenshot_20260614_124049" src="https://github.com/user-attachments/assets/69250c36-7590-4d9e-a52f-3d6092601b1f" />
+<img width="200" height="444" alt="Screenshot_20260614_124123" src="https://github.com/user-attachments/assets/576807b0-9381-495e-94b2-828009b043e1" />
+<img width="200" height="444" alt="Screenshot_20260614_124142" src="https://github.com/user-attachments/assets/6d659164-67bd-459d-98ec-79fc4331b7bf" />
+<img width="200" height="444" alt="Screenshot_20260614_124200" src="https://github.com/user-attachments/assets/4cde61b7-45a2-445d-8029-679370048f8c" />
+<img width="200" height="444" alt="Screenshot_20260614_124239" src="https://github.com/user-attachments/assets/7fb52371-e08a-4102-bac1-66d9bfbbf507" />
+<img width="200" height="444" alt="Screenshot_20260614_124252" src="https://github.com/user-attachments/assets/98188b40-0dd6-4513-b74c-e23df40ce531" />
+<img width="200" height="444" alt="Screenshot_20260614_124316" src="https://github.com/user-attachments/assets/5fa27d1d-f5a1-446e-89a4-f084d4d300ed" />
+
+
 
 
 ## 🛠️ Tech Stack
@@ -59,25 +70,21 @@ Modern travelers face fragmented interfaces, slow query speeds, and cumbersome c
 * **Build Engine**: Gradle Kotlin DSL (`build.gradle.kts`)
 
 
-* **Presentation Layer (UI)**:
 * **Framework**: Jetpack Compose
 * **Design System**: Material Design 3 (MD3)
 * **Asynchronous Image Mapping**: Painter Resource scalers with structural clipping masks
 
 
-* **State Management & Communication**:
 * **Architecture Pattern**: MVVM (Model-View-ViewModel)
 * **Reactive Streams**: Kotlin Asynchronous Flow (`MutableStateFlow`, `StateFlow`)
 * **Lifecycle Scopes**: Architecture-aware `viewModelScope` tracking coroutine life hierarchies
 
 
-* **Data & Networking Layer**:
 * **HTTP Engine**: Retrofit 2
 * **Serialization**: GSON Converter Factory
 * **Identity Management**: Google Firebase Client SDK (Authentication Engine)
 
 
-* **Navigation Pipeline**:
 * **Engine**: Jetpack Compose Navigation (`NavController`, `NavHost`)
 * **Routing Optimization**: Single-top flag navigation redirection to prevent memory stack leaks.
 
@@ -169,39 +176,20 @@ arjunparmar-dev/atithi/Atithi-7d6f7f9701dd268a772bde208b40f161062f0cee/
 
 1. **Clone the Repository Assets**
 ```bash
-
-```
-
-
-
-git clone https://github.com/arjunparmar-dev/atithi.git
-cd atithi
-
+    git clone https://github.com/arjunparmar-dev/atithi.git cd atithi
 ```
 
 2. **Register the Android Application Target in Firebase**
    - Open the [Firebase Console](https://console.firebase.google.com/).
    - Click **Add Project** and name it `Atithi-Booking`.
-   - Register an Android App inside the project settings, setting the exact package coordinate value:
-     ```text
-com.example.assignment_8
-
-```
+   - Register an Android App inside the project settings, setting the exact package coordinate value: com.example.assignment_8
 
 * Generate and download the corresponding `google-services.json` environment file.
 
 3. **Install the Configuration File**
 * Copy the downloaded configuration file into the project's explicit application module path:
-```text
-
-```
-
-
-
-
-
+```bash
 arjunparmar-dev/atithi/Atithi-7d6f7f9701dd268a772bde208b40f161062f0cee/app/google-services.json
-
 ```
 
 4. **Enable Phone Authentication Gateways**
@@ -334,13 +322,13 @@ Customer Documentation (FAQ) ─────██ 5%
 
 ## 🤝 Contributors
 
-* **Arjun Parmar** (`@arjunparmar-dev`) - Core Project Architect & Senior Mobile Engineer
+* **Arjun Parmar** (`@arjunparmar-dev`) 
 
 ---
 
 ## 📄 License
 
-This codebase is maintained and distributed as an assignment/portfolio codebase. Feel free to fork, adapt, or reference its architectural setup for personal educational targets.
+This codebase is maintained and distributed as an assignment codebase. Feel free to fork, adapt, or reference its architectural setup for personal educational targets.
 
 ---
 
